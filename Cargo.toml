@@ -1,0 +1,9 @@
+[package]
+name = "toodles"
+version = "0.1.0"
+authors = ["Dilantha Wijesinghe <wdilantha66@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+rusqlite = { version = "0.36.0", features = ["bundled"] }
